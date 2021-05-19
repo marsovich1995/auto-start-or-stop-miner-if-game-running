@@ -17,7 +17,7 @@ if  games and miner Then ' 1 and 1
  
 Shell_hidden("taskkill /f /im " & target_app) 'close target app
 ElseIf not (games or miner) Then  ' 0 and 0
-' a = "cmd.exe /c " & scriptdir & "\" & "calce.exe"
+
 command = "cmd.exe /c " & scriptdir & "\" & target_app & " " & target_app_params ' command to running application
     If hidden_window Then
         Shell_hidden(command) 'hidden running
