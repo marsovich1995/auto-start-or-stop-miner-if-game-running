@@ -2,7 +2,7 @@ Option Explicit
 dim target_app, target_app_params,games_all, hidden_window, scriptdir, objItems, games, miner,command
 '################################################
 target_app = "t-rex.exe"
-target_app_params = "-a kawpow -o stratum+tcp://rvn.2miners.com:6060 -u RNQMq5Gyzr83PwYNFig3DajVujpjS7vKbN.rig -p x -i 10"
+target_app_params = "-a kawpow -o stratum+tcp://rvn.2miners.com:6060 -u RNQMq5Gyzr83PwYNFig3DajVujpjS7vKbN.rig -p x -i 10" 'params for miner
 games_all = "witcher3.exe csgo.exe Fallout4.exe calc.exe" 'one or more applications separated by a space (case sensitive)
 hidden_window=False
 '################################################
